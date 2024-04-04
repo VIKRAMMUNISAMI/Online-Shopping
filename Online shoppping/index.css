@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: "popping", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 25px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+.navbar h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar-links {
+    padding-top: 200px;
+    position: absolute;
+    display: flex;
+    column-gap: 20px;
+    color:#1d1d1d;
+
+}
+
+.navbar-link a {
+    text-decoration: none;
+    color: #1d1d1d;
+    font-size: 20px;
+}
+
+.navbar-link a:hover {
+    text-decoration: underline;
+}
+
+.navbar-menu-toggle {
+    display: none;
+}
+/* input-search */
+.search-container {
+    position: relative;
+    
+    
+}
+
+.search-container i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px; /* Adjust the left position as needed */
+    color: #353535;
+}
+
+.search-container input {
+    padding-left: 30px; /* Adjust the left padding to make space for the icon */
+    width: 400px;
+    height: 40px;
+    text-indent: 2rem;
+    font-weight: 200;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: white;
+}
+
+/* side navbar */
+.side-navbar{
+    background-color: #1d232c;
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    padding:40px;
+    color: white;
+    transition: 2s;
+    
+
+}
+
+.side-navbar-link{
+    margin-top: 30px ;
+}
+.side-navbar-link a{
+ text-decoration: none;
+ color: white;  
+ font-family: Helvetica, sans-serif;
+ font-weight:700;  
+}
+.side-navbar-link a:hover{
+    text-decoration: underline;
+}
+.login-navbar{
+    text-align: center;
+    position:static;
+    margin-top: 10%;
+    row-gap: 100px;
+     
+    background-color:transparent;
+    border-radius: 5%;
+    margin-left: 35%;
+    margin-right: 300px;
+    max-width: fit-content;
+    
+    
+
+    
+}
+
+.login-MAil-password input{
+    width: 350px;
+    height: 35px;
+   margin-top: 40px;
+   border-radius: 10px white;
+   font-family:  Helvetica, sans-serif;
+   font-weight: 600;
+   text-indent: 2rem;
+   font-size: large;
+   margin-left: 20px;
+   margin-right: 15px;
+   border-radius:5px ;
+   padding-left: 20px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+button.login-MAil-password {
+    width: 350px;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    background: blue;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 5px;
+}
+.account button{
+    width:200px;
+    height: 30px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    color: white;
+    background: lightgreen;
+    font-size: large;
+    font-weight: 600;
+    border-radius: 5px;
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    padding: 150px;
+}
+.btn-header{
+    padding: 10px 20px 10px 10px;
+    margin-top: 10px;
+    background-color: #1d1d1d;
+    color: white;
+    cursor: pointer;
+}
+
+.service-container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-container-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.service-container-2 div{
+    background-color: #F2F4F7;
+    border-radius: 5px;
+    padding: 10px;
+}
+.new-arrival{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+.new-arrival-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrival-container button{
+   padding-left: 10%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   padding-right: 10%;
+   margin-top: 10px;
+   color:#1d232c;
+   position: absolute;
+   top:50%;
+   left:18%;
+   border-radius: 10px;
+   border: none;
+   font-size: 10px;
+   
+   
+   
+}
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #1d232c;
+    color: #F2F4F7;
+}
+/* men products */
+.mens-section
+{
+    margin-top: 100px;
+    
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 50px;
+    flex-wrap: wrap;
+ 
+}
+.product-mens{
+    text-align: center;
+    flex-basis: 20%;
+    width: max-content;
+    height: 400px;
+    background-color: #F2F4F7;
+   border-radius: 8px;
+}
+.product-mens img{
+    padding-top: 30px;
+    
+    
+}
+.product-mens button{
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    font-weight: 600;
+    background: blue;
+    margin-top: 20px;
+    color:white;
+
+}
+/* register from */
+/* form{
+    
+    
+    width: 0;
+    height: 20%;
+    position:absolute;
+    top: 0;
+    left:0;
+    padding:100px 200px;
+    margin: 250px 500px 200px ;
+    color: white;
+    background-color: #1d1d1d;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+.login{
+    position:absolute;
+    
+} */
+
+
+
+/* media query */
+@media screen and (max-width: 600px) {
+
+    .navbar-menu-toggle {
+        display: block;
+    }
+    
+    .header-img{
+        display: none;
+    }
+    .service-container-1{
+        display: none;
+    }
+   
+    .search-container{
+        display: none;
+    }
+    .service-container-2{
+        flex-direction: column;
+    }
+
+
+}
